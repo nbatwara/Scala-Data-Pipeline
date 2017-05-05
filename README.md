@@ -34,10 +34,14 @@ Users can query data on the elastic search using two end points: One to search b
 
 ## How to Build and Run
  * Download and import into IDE (created in IntelliJ)
- * Run each Microservice in order
+ * Run each Microservice in order * Run with docker(download docker-compose.yml file). Open docker quicstart terminal and run:
+ ```scala
+ docker-compose up
+ ```
  ```scala
  sbt run
  ```
+ * Run each microservice in order. 
  ## Order to run: 3-4-1-5
  * [1] ElasticSearch.ElasticConsumer
  * [2] KafkaMain.FileConsumer
