@@ -40,7 +40,7 @@ HTTP Micro‐Service that offers API to search for data stored in Elastic Search
  ```scala
  sbt run
  ```
- ## Order to run: 3-4-5
+ ## Order to run: 3-4-1-5
  * [1] ElasticSearch.ElasticConsumer
  * [2] KafkaMain.FileConsumer
  * [3] KafkaMain.FileWriter
