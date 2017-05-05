@@ -3,7 +3,7 @@
 ![High Level Architecture](./Scala-Project-Wire.PNG "High Level Architecture")
 
 ## Mircroservice/Project 1:
-his project implements the first stage of the data pipeline being built. Akka streams are used to build each of the micro services. Akka stream mainly need three components to be configured Source, Sink and Flow. In this project the source if file. An iterator to the lines from file is given as source and the sink is configured to kafka producer.
+This project implements the first stage of the data pipeline being built. Akka streams are used to build each of the micro services. Akka stream mainly need three components to be configured Source, Sink and Flow. In this project the source if file. An iterator to the lines from file is given as source and the sink is configured to kafka producer.
  * Genome sample data set hosted by Google here shall be used as the sample ingest data.
  * File location, file name shall be configurable
  * Topic name, Kafka stream end points shall be configurable
