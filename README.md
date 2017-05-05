@@ -41,9 +41,9 @@ HTTP Micro‐Service that offers API to search for data stored in Elastic Search
  sbt run
  ```
  ## Order to run: 3-4-5
- *[1] 1. ElasticSearch.ElasticConsumer
- *[2] 2. KafkaMain.FileConsumer
- *[3] 3. KafkaMain.FileWriter
- *[4] 4. KafkaMain.KafkaToKafka
- *[5] 5. RESTService.RestMicroservice
+ * 1. ElasticSearch.ElasticConsumer
+ * 2. KafkaMain.FileConsumer
+ * 3. KafkaMain.FileWriter
+ * 4. KafkaMain.KafkaToKafka
+ * 5. RESTService.RestMicroservice
 
