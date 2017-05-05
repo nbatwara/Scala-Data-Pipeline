@@ -2,7 +2,7 @@
 
 ![High Level Architecture](./Scala-Project-Wire.PNG "High Level Architecture")
 
-## Stage/Project 1:
+## Mircroservice/Project 1:
 
 Micro‐Service to ingest data from a flat file to Kafka
  * Genome sample data set hosted by Google here shall be used as the sample ingest data.
@@ -10,7 +10,7 @@ Micro‐Service to ingest data from a flat file to Kafka
  * Topic name, Kafka stream end points shall be configurable
 
 
-## Stage/Project 2: 
+## Mircroservice/Project 2: 
 
 Micro‐Service to consume Kafka stream on a configured topic to enhance the
 data and add to a new topic.
@@ -18,7 +18,7 @@ data and add to a new topic.
  * Kafka end points shall be configurable
 
 
-## Stage/Project 3: 
+## Mircroservice/Project 3: 
 
 Micro‐Service to consume enhanced data records from Kafka stream and ingest
 to Elastic Search
@@ -27,9 +27,14 @@ to Elastic Search
  * Partition/Index/Object Types shall be configurable
 
 
-## Stage/Project 4:
+## Mircroservice/Project 4:
 
 HTTP Micro‐Service that offers API to search for data stored in Elastic Search
  * Elastic Search end points shall be configurable
  * HTTP Endpoints shall be configurable
  * Must list APIs offered by the service
+
+## How to Build and Run
+ * Download and import into IDE (created in IntelliJ)
+ * Run each Microservice in order
+ ```sbt run 
