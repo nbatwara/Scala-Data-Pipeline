@@ -34,7 +34,7 @@ Users can query data on the elastic search using two end points: One to search b
 
 ## How to Build and Run
  * Download and import into IDE (created in IntelliJ)
- * Run each Microservice in order * Run with docker(download docker-compose.yml file). Open docker quicstart terminal and run:
+ * Run each Microservice in order -- Run with docker(download docker-compose.yml file provided in project). Open docker quicstart terminal and run:
  ```scala
  docker-compose up
  ```
