@@ -49,5 +49,19 @@ Users can query data on the elastic search using two end points: One to search b
  * [4] KafkaMain.KafkaToKafka
  * [5] RESTService.RestMicroservice
 
+| ~ | ~ |
+|---|---|
+| `IP address (For Docker)`| `192.168.99.100` |
+| `Port(For Kafka)` | `9092` |
+| `Port(For ElasticSearch)` | `9200` |
+| `Port and IP (for HTTP request directly to elastic search)` | `locahost:8200` |
+| `CSV Filename` | `C:\Users\{UserName}\{Download Directory}\sample_info.csv` |
+| `Topic` | `MessageProcessor` |
+
+Extracting the CSV file data requires the absoulte path on your PC/Mac. 
+
+
+
+
 
 :octocat: :octocat:
